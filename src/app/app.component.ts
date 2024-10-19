@@ -15,7 +15,6 @@ export class AppComponent {
   title = 'portfolio';
   activeSection: string = 'about';
 
-  private text: string = 'OLURIN ANJOLA';
 
   @HostListener('window:scroll', [])
   onWindowScroll() {
